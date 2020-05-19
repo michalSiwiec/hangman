@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: indianred;
+}
+
+div#container {
+    width: 80%;
+    min-height: 870px;
+    box-sizing: border-box;
+    padding-left: 5%;
+    padding-right: 5%;
+    /*    background-color: yellow;*/
+    background-color: black;
+    margin: 150px auto;
+}
+
+div#haslo {
+    min-height: 150px;
+    box-sizing: border-box;
+    padding: 30px 55px;
+    font-size: 37px;
+    text-align: center;
+    color: white;
+    /*    background-color: darkgrey;*/
+    margin-bottom: 70px;
+    position: relative;
+}
+
+div#haslo p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div#obrazek {
+    float: left;
+    width: 60%;
+    height: 600px;
+    /*    background-color: yellow;*/
+    position: relative;
+}
+
+div#obrazek img {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div#litery {
+    float: left;
+    width: 40%;
+    height: 600px;
+    /*    background-color: darkred;*/
+}
+
+div.poziom {
+    height: 100px;
+}
+
+div.litera {
+    background-color: darkgrey;
+    width: calc(20% - 10px);
+    height: calc(100% - 10px);
+    margin: 5px;
+    float: left;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+}
+
+div.litera p.p_litera {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.litera:hover {
+    background-color: orangered;
+    cursor: pointer;
+}
+
+button#zagraj_ponownie,
+div#podpowiedz button {
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: darkgrey;
+}
+
+button#zagraj_ponownie:hover,
+div#podpowiedz button:hover {
+    background-color: orangered;
+}
+
+div#kategoria {
+    margin: 30px auto 0 auto;
+}
+
+span#span_style {
+    color: orangered;
+}
+
+div#podpowiedz {
+    max-width: 300px;
+    max-height: 100px;
+    text-align: justify;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    display: none;
+    font-size: 20px;
+}
